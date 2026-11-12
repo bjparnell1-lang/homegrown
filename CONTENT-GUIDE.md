@@ -10,9 +10,8 @@ cd site && python3 -m http.server 8000     # then open http://localhost:8000
 
 ## Change the brand
 Edit `site/data/brand.json`: `name`, `slogan`, `story`, `season`, `location`, `instagram`, `email`.
-The hero wordmark, nav, footer word, page title and copyright all read from it.
-In `story`, wrap a word in `*asterisks*` to give it the highlighted-block treatment.
-The wordmark auto-fits any name; two-word names split over two lines.
+The hero wordmark, nav, footer, page title and copyright all read from it.
+In `story`, wrap a word in `*asterisks*` to set it in gold italic.
 
 ## Add a product
 Add an object to `site/data/products.json`:
@@ -30,18 +29,18 @@ Add an object to `site/data/products.json`:
 }
 ```
 
-* A new `category` automatically gets its own panel in the horizontal "Shop" section and a filter chip.
+* A new `category` automatically gets its own tile in "Categories" and a filter in "The collection".
 * `price: null` shows "Price on request". Put a number or string there later.
-* Add a colour by adding another `{name, hex}` — a swatch appears on the card.
+* Add a colour by adding another `{name, hex}`; a swatch appears on the card.
 
 ## Photos
-Each card shows its expected file name and size (front, back, detail, on-model; 1200×1500 WebP).
-Drop files into `site/images/`. Real `<img>` rendering of these slots is the next step; until then the
-placeholder silhouettes are tinted with the swatch colour.
+Each tile shows its expected file name and size. Drop files into `site/images/`.
+Rendering real photos in these slots is the next step; until then the placeholder garment is tinted with the swatch colour.
 
-## Motion
-All motion lives in `site/js/app.js`; every effect is labelled by section number in the scroll engine.
-`prefers-reduced-motion` turns off pinning, scrubbing, the intro and the cursor.
+## The silk animation
+The hero and Atelier backgrounds are drawn live in `site/js/app.js` (search for "Silk shader").
+Colours are in `PAL`, loop length in `PERIOD` (seconds). It pauses off-screen, shows a still frame for
+reduced-motion users, and falls back to a plain gradient where WebGL is unavailable.
 
 ## Deploy
-`vercel.json` points Vercel at `site/`. Import the repo in Vercel, or run `vercel --prod`.
+`vercel.json` points Vercel at `site/`.
