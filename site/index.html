@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en" class="is-loading">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Label — Your slogan goes here</title>
+<meta name="description" content="Independent streetwear. Small runs, heavy fabric, one drop at a time.">
+<meta name="theme-color" content="#0a0a09">
+<link rel="preload" href="fonts/archivo-100-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+<noscript><style>.intro{display:none}html.is-loading{overflow:auto}</style></noscript>
+<script src="js/app.js" defer></script>
+</head>
+<body>
+
+<a class="skip" href="#products">Skip to products</a>
+
+<!-- Intro -->
+<div class="intro" aria-hidden="true">
+  <div class="intro__count"><span data-intro-count>000</span><i>%</i></div>
+  <div class="intro__name" data-brand="name">Your Label</div>
+</div>
+
+<div class="progress" aria-hidden="true"><i data-progress></i></div>
+
+<!-- Nav -->
+<header class="nav">
+  <a class="nav__brand" href="#top" data-brand="name" data-cursor="Top">Your Label</a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#categories" data-magnet>Shop</a>
+    <a href="#products" data-magnet>Drop</a>
+    <a href="#lookbook" data-magnet>Lookbook</a>
+    <a href="#story" data-magnet>Story</a>
+  </nav>
+  <button class="nav__bag" type="button" data-open-bag data-magnet aria-haspopup="dialog">
+    Bag <span class="nav__count" data-bag-count>0</span>
+  </button>
+</header>
+
+<!-- Section counter -->
+<div class="where" aria-hidden="true">
+  <span data-where-i>01</span><span class="where__sep">/</span><span>06</span>
+  <span class="where__name" data-where-name>Intro</span>
+</div>
+
+<main id="top">
+
+<!-- 01 HERO -->
+<section class="hero" id="hero" data-name="Intro">
+  <div class="hero__pin">
+    <div class="hero__grid" aria-hidden="true"></div>
+
+    <div class="hero__meta hero__meta--tl mono">
+      <span data-brand="season">Season 01</span>
+      <span>— Beta drop</span>
+    </div>
+    <div class="hero__meta hero__meta--tr mono" aria-hidden="true">
+      <span data-brand="location">Your City</span>
+      <span>Indie / Local</span>
+    </div>
+
+    <svg class="hero__star" data-star viewBox="0 0 100 100" aria-hidden="true">
+      <path fill="currentColor" d="M44 0h12l-2 36 26-26 8 8-26 26 36-2v12l-36-2 26 26-8 8-26-26 2 36H44l2-36-26 26-8-8 26-26-36 2V44l36 2-26-26 8-8 26 26z"/>
+    </svg>
+
+    <h1 class="hero__word" data-hero-word aria-label="Your Label">
+      <span class="hero__line" data-hero-line><span class="hero__chars">YOUR</span></span>
+      <span class="hero__line" data-hero-line><span class="hero__chars">LABEL</span></span>
+    </h1>
+
+    <svg class="badge" data-badge viewBox="0 0 200 200" aria-hidden="true">
+      <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+      <circle cx="100" cy="100" r="98" fill="var(--acid)"/>
+      <text class="badge__text"><textPath href="#circ" startOffset="0">NEW DROP ✦ SMALL RUNS ✦ MADE LOCAL ✦ NEW DROP ✦ SMALL RUNS ✦ </textPath></text>
+      <path d="M100 74v52M74 100h52M82 82l36 36M118 82l-36 36" stroke="#0a0a09" stroke-width="7" stroke-linecap="square"/>
+    </svg>
+
+    <div class="hero__bottom">
+      <p class="hero__slogan" data-brand="slogan">Your slogan goes here</p>
+      <p class="beta mono"><i></i>Store is in beta. Prices will be displayed soon.</p>
+      <div class="hero__cue mono" aria-hidden="true"><span>Scroll</span><i></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 MANIFESTO / STORY -->
+<section class="story" id="story" data-name="Story" data-theme="dark">
+  <div class="story__pin">
+    <div class="story__bg" data-story-bg></div>
+    <div class="story__inner">
+      <p class="story__tag mono">(01) Story — placeholder copy</p>
+      <p class="story__text" data-story data-brand="story">Placeholder story. Edit site/data/brand.json.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Marquee -->
+<section class="marquee" aria-hidden="true" data-marquee-sec>
+  <div class="marquee__row" data-marquee data-dir="1">
+    <div class="marquee__track"><span>New drop — Season 01 — Made local — Heavy fabric — </span><span>New drop — Season 01 — Made local — Heavy fabric — </span></div>
+  </div>
+  <div class="marquee__row marquee__row--out" data-marquee data-dir="-1">
+    <div class="marquee__track"><span>Small runs ✦ No restocks ✦ Cut &amp; sewn by hand ✦ </span><span>Small runs ✦ No restocks ✦ Cut &amp; sewn by hand ✦ </span></div>
+  </div>
+</section>
+
+<!-- 03 CATEGORIES (pinned horizontal) -->
+<section class="cats" id="categories" data-name="Shop" data-cats>
+  <div class="cats__pin">
+    <div class="cats__track" data-cats-track>
+      <div class="cats__head">
+        <p class="mono">(02) Shop by category</p>
+        <h2>Pick your <em>piece</em></h2>
+        <p class="cats__hint mono">Keep scrolling →</p>
+      </div>
+    </div>
+    <div class="cats__bar" aria-hidden="true"><i data-cats-bar></i></div>
+  </div>
+</section>
+
+<!-- 04 LOOKBOOK (stacked cards) -->
+<section class="look" id="lookbook" data-name="Lookbook">
+  <div class="look__head">
+    <p class="mono">(03) Lookbook</p>
+    <h2>On the <em>block</em></h2>
+  </div>
+  <div class="look__stack" data-look>
+    <article class="look__card" data-look-card style="--tone:#2b2f1d">
+      <div class="look__txt"><span class="mono">Look 01</span><h3>Night shift</h3><p>Placeholder caption. Describe the pieces, the place, the mood.</p></div>
+      <div class="slot slot--dark"><span class="slot__tag mono">on-model · look-01.webp · 1600×2000</span><b>01</b></div>
+    </article>
+    <article class="look__card" data-look-card style="--tone:#5a2a18">
+      <div class="look__txt"><span class="mono">Look 02</span><h3>Concrete heat</h3><p>Placeholder caption. Describe the pieces, the place, the mood.</p></div>
+      <div class="slot slot--dark"><span class="slot__tag mono">on-model · look-02.webp · 1600×2000</span><b>02</b></div>
+    </article>
+    <article class="look__card" data-look-card style="--tone:#2a3846">
+      <div class="look__txt"><span class="mono">Look 03</span><h3>Last train</h3><p>Placeholder caption. Describe the pieces, the place, the mood.</p></div>
+      <div class="slot slot--dark"><span class="slot__tag mono">on-model · look-03.webp · 1600×2000</span><b>03</b></div>
+    </article>
+  </div>
+</section>
+
+<!-- 05 PRODUCTS -->
+<section class="prods" id="products" data-name="Drop" data-theme="dark">
+  <div class="prods__head">
+    <div>
+      <p class="mono">(04) The drop</p>
+      <h2>Featured <em>pieces</em></h2>
+    </div>
+    <p class="beta beta--dark mono"><i></i>Store is in beta. Prices will be displayed soon.</p>
+  </div>
+  <div class="chips" data-chips role="group" aria-label="Filter by category"></div>
+  <div class="prods__grid" data-grid></div>
+</section>
+
+</main>
+
+<!-- 06 FOOTER -->
+<footer class="foot" id="contact" data-name="Contact">
+  <div class="foot__top">
+    <p class="mono">(05) Contact</p>
+    <ul class="foot__links">
+      <li><a href="mailto:hello@example.com" data-brand-href="email" data-magnet>Email — placeholder</a></li>
+      <li><a href="https://instagram.com/yourlabel" data-brand-href="instagram" data-magnet>Instagram — placeholder</a></li>
+      <li><button type="button" data-top data-magnet>Back to top ↑</button></li>
+    </ul>
+  </div>
+  <div class="foot__word" data-foot-word aria-hidden="true"></div>
+  <div class="foot__base mono">
+    <span>© <span data-year>2026</span> <span data-brand="name">Your Label</span></span>
+    <span>Store is in beta. Prices will be displayed soon.</span>
+  </div>
+</footer>
+
+<!-- Bag drawer -->
+<div class="scrim" data-scrim hidden></div>
+<aside class="bag" data-bag role="dialog" aria-modal="true" aria-label="Your bag" hidden>
+  <div class="bag__head">
+    <h2>Bag <span data-bag-count>0</span></h2>
+    <button type="button" class="bag__close" data-close-bag aria-label="Close bag">Close ✕</button>
+  </div>
+  <ul class="bag__list" data-bag-list></ul>
+  <p class="bag__empty" data-bag-empty>Your bag is empty.</p>
+  <div class="bag__foot">
+    <p class="mono">Price on request</p>
+    <button type="button" class="btn btn--wide" disabled aria-disabled="true">Order request opens soon</button>
+    <p class="mono bag__note">Store is in beta. Prices will be displayed soon.</p>
+  </div>
+</aside>
+
+<div class="toast mono" data-toast role="status" aria-live="polite"></div>
+<div class="cursor" data-cursor-el aria-hidden="true"><span></span></div>
+
+</body>
+</html>

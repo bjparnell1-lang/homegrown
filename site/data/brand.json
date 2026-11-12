@@ -1,0 +1,10 @@
+{
+  "name": "Your Label",
+  "slogan": "Your slogan goes here",
+  "logo": null,
+  "story": "PLACEHOLDER STORY — replace this in site/data/brand.json. We make *clothes* for the people who actually walk these streets. Small runs, heavy fabric, no *filler*. Every piece is cut, sewn and checked by hand, then dropped once and *gone* when it's gone. Write your real story here, in your own words, and keep it short enough to read on one scroll.",
+  "season": "Season 01",
+  "location": "Your City",
+  "instagram": "https://instagram.com/yourlabel",
+  "email": "hello@example.com"
+}

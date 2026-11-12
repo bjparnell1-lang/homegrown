@@ -1,0 +1,387 @@
+{
+  "currency": "USD",
+  "products": [
+    {
+      "id": "sample-hoodie-01",
+      "name": "Sample Hoodie 01",
+      "description": "Placeholder description. Replace with fabric, fit and care details.",
+      "category": "Hoodies",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#111111"
+        },
+        {
+          "name": "Olive",
+          "hex": "#4B5230"
+        },
+        {
+          "name": "Rust",
+          "hex": "#A4452A"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": null,
+      "photos": {
+        "front": {
+          "file": "images/sample-hoodie-01-front.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "back": {
+          "file": "images/sample-hoodie-01-back.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "detail": {
+          "file": "images/sample-hoodie-01-detail.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "on-model": {
+          "file": "images/sample-hoodie-01-on-model.webp",
+          "width": 1200,
+          "height": 1500
+        }
+      }
+    },
+    {
+      "id": "sample-hoodie-02",
+      "name": "Sample Hoodie 02",
+      "description": "Placeholder description. Replace with fabric, fit and care details.",
+      "category": "Hoodies",
+      "colors": [
+        {
+          "name": "Bone",
+          "hex": "#E8E4D8"
+        },
+        {
+          "name": "Washed Blue",
+          "hex": "#5B7089"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": null,
+      "photos": {
+        "front": {
+          "file": "images/sample-hoodie-02-front.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "back": {
+          "file": "images/sample-hoodie-02-back.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "detail": {
+          "file": "images/sample-hoodie-02-detail.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "on-model": {
+          "file": "images/sample-hoodie-02-on-model.webp",
+          "width": 1200,
+          "height": 1500
+        }
+      }
+    },
+    {
+      "id": "sample-sweatshirt-01",
+      "name": "Sample Sweatshirt 01",
+      "description": "Placeholder description. Replace with fabric, fit and care details.",
+      "category": "Sweatshirts",
+      "colors": [
+        {
+          "name": "Sand",
+          "hex": "#BDA97E"
+        },
+        {
+          "name": "Black",
+          "hex": "#111111"
+        },
+        {
+          "name": "Rust",
+          "hex": "#A4452A"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": null,
+      "photos": {
+        "front": {
+          "file": "images/sample-sweatshirt-01-front.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "back": {
+          "file": "images/sample-sweatshirt-01-back.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "detail": {
+          "file": "images/sample-sweatshirt-01-detail.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "on-model": {
+          "file": "images/sample-sweatshirt-01-on-model.webp",
+          "width": 1200,
+          "height": 1500
+        }
+      }
+    },
+    {
+      "id": "sample-sweatshirt-02",
+      "name": "Sample Sweatshirt 02",
+      "description": "Placeholder description. Replace with fabric, fit and care details.",
+      "category": "Sweatshirts",
+      "colors": [
+        {
+          "name": "Olive",
+          "hex": "#4B5230"
+        },
+        {
+          "name": "Bone",
+          "hex": "#E8E4D8"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": null,
+      "photos": {
+        "front": {
+          "file": "images/sample-sweatshirt-02-front.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "back": {
+          "file": "images/sample-sweatshirt-02-back.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "detail": {
+          "file": "images/sample-sweatshirt-02-detail.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "on-model": {
+          "file": "images/sample-sweatshirt-02-on-model.webp",
+          "width": 1200,
+          "height": 1500
+        }
+      }
+    },
+    {
+      "id": "sample-jeans-01",
+      "name": "Sample Jeans 01",
+      "description": "Placeholder description. Replace with fabric, fit and care details.",
+      "category": "Jeans",
+      "colors": [
+        {
+          "name": "Washed Blue",
+          "hex": "#5B7089"
+        },
+        {
+          "name": "Black",
+          "hex": "#111111"
+        }
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "price": null,
+      "photos": {
+        "front": {
+          "file": "images/sample-jeans-01-front.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "back": {
+          "file": "images/sample-jeans-01-back.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "detail": {
+          "file": "images/sample-jeans-01-detail.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "on-model": {
+          "file": "images/sample-jeans-01-on-model.webp",
+          "width": 1200,
+          "height": 1500
+        }
+      }
+    },
+    {
+      "id": "sample-jeans-02",
+      "name": "Sample Jeans 02",
+      "description": "Placeholder description. Replace with fabric, fit and care details.",
+      "category": "Jeans",
+      "colors": [
+        {
+          "name": "Bone",
+          "hex": "#E8E4D8"
+        },
+        {
+          "name": "Olive",
+          "hex": "#4B5230"
+        },
+        {
+          "name": "Sand",
+          "hex": "#BDA97E"
+        }
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "price": null,
+      "photos": {
+        "front": {
+          "file": "images/sample-jeans-02-front.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "back": {
+          "file": "images/sample-jeans-02-back.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "detail": {
+          "file": "images/sample-jeans-02-detail.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "on-model": {
+          "file": "images/sample-jeans-02-on-model.webp",
+          "width": 1200,
+          "height": 1500
+        }
+      }
+    },
+    {
+      "id": "sample-sneaker-01",
+      "name": "Sample Sneaker 01",
+      "description": "Placeholder description. Replace with fabric, fit and care details.",
+      "category": "Sneakers",
+      "colors": [
+        {
+          "name": "Bone",
+          "hex": "#E8E4D8"
+        },
+        {
+          "name": "Black",
+          "hex": "#111111"
+        },
+        {
+          "name": "Rust",
+          "hex": "#A4452A"
+        }
+      ],
+      "sizes": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "price": null,
+      "photos": {
+        "front": {
+          "file": "images/sample-sneaker-01-front.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "back": {
+          "file": "images/sample-sneaker-01-back.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "detail": {
+          "file": "images/sample-sneaker-01-detail.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "on-model": {
+          "file": "images/sample-sneaker-01-on-model.webp",
+          "width": 1200,
+          "height": 1500
+        }
+      }
+    },
+    {
+      "id": "sample-sneaker-02",
+      "name": "Sample Sneaker 02",
+      "description": "Placeholder description. Replace with fabric, fit and care details.",
+      "category": "Sneakers",
+      "colors": [
+        {
+          "name": "Olive",
+          "hex": "#4B5230"
+        },
+        {
+          "name": "Sand",
+          "hex": "#BDA97E"
+        }
+      ],
+      "sizes": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "price": null,
+      "photos": {
+        "front": {
+          "file": "images/sample-sneaker-02-front.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "back": {
+          "file": "images/sample-sneaker-02-back.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "detail": {
+          "file": "images/sample-sneaker-02-detail.webp",
+          "width": 1200,
+          "height": 1500
+        },
+        "on-model": {
+          "file": "images/sample-sneaker-02-on-model.webp",
+          "width": 1200,
+          "height": 1500
+        }
+      }
+    }
+  ]
+}
